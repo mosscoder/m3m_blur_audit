@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Run output and scratch
+*.log
+scratch/
+tmp/
+
+# Credentials: the scripts read the public bucket anonymously and need none
+.env
+*.key
+*credentials*.json
+*service-account*.json
